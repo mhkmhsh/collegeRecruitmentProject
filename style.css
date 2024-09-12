@@ -19,6 +19,12 @@ h1{
 
 }
 
+#logo{
+
+ height:50%;
+ width:50%;
+justify-content: center;
+}
 
 
 /* CSS from getcssscan.com!! */
@@ -55,4 +61,14 @@ h1{
 .button-89:active {
   background: var(--color);
   color: #44504b;
+}
+
+button{
+  color:#fadca8;
+}
+
+/* The landing page must disappear once submit is clicked*/
+.greeting{
+
+
 }

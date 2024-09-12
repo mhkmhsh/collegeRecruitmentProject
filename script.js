@@ -4,4 +4,7 @@ function myFunction() {
     message.innerHTML ="So " + userInput.value +", you want to go to Princeton "
   
   }
-  
+  // add smth to make the top disappear when submit is clicked and so the body appears 
+  function body() {
+    
+  }

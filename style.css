@@ -70,8 +70,21 @@ button{
 /* The landing page must disappear once submit is clicked*/
 .greeting{
 animation-duration: 3s;
+animation: slide;
+animation-delay:;
 
 }
+span::before{
+  animation: animate 3s;
+  animation-fill-mode:forwards;
+}
+@keyframes animate{
+100%{
+  display:block;
+}
+
+}
+
 
 .content{
 display:none;

@@ -26,7 +26,10 @@ h1{
 justify-content: center;
 }
 
-
+#nav{
+  background-color:#082931 ;
+  justify-content: center;
+}
 /* CSS from getcssscan.com!! */
 .button-89 {
   --b: 3px;   /* border thickness */
@@ -119,4 +122,9 @@ button{
 .message-button:active {
   color: #44504b;
 }
+
+
+
+
+
 

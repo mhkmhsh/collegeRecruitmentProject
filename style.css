@@ -68,25 +68,14 @@ button{
 }
 
 /* The landing page must disappear once submit is clicked*/
-.greeting{
-animation-duration: 3s;
-animation: slide;
-animation-delay:;
-
+#greeting {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
-span::before{
-  animation: animate 3s;
-  animation-fill-mode:forwards;
+#content {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s;
 }
-@keyframes animate{
-100%{
-  display:block;
-}
-
-}
-
-
-.content{
-display:none;
-
-}
+/* The landing page must disappear once submit is clicked*/

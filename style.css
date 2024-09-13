@@ -113,7 +113,6 @@ button{
 
 .card-list .card-item .message-button {
   color:#fadca8;
-  border-radius:6px;
   font-weight: 500;
   cursor:pointer;
 }
@@ -121,6 +120,3 @@ button{
   color: #44504b;
 }
 
-.card-list .card-item .message-button:hover {
-  background: #44504b;
-}

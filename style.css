@@ -26,7 +26,10 @@ h1{
 justify-content: center;
 }
 
-
+#nav{
+  background-color:#082931 ;
+  justify-content: center;
+}
 /* CSS from getcssscan.com!! */
 .button-89 {
   --b: 3px;   /* border thickness */
@@ -113,7 +116,6 @@ button{
 
 .card-list .card-item .message-button {
   color:#fadca8;
-  border-radius:6px;
   font-weight: 500;
   cursor:pointer;
 }
@@ -121,6 +123,8 @@ button{
   color: #44504b;
 }
 
-.card-list .card-item .message-button:hover {
-  background: #44504b;
-}
+
+
+
+
+

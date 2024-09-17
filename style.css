@@ -123,8 +123,28 @@ button{
   color: #44504b;
 }
 
+.slider-wrapper .swiper-pagination-bullet {
+  background:#d9924e;
+  height: 15px;
+  width: 15px;
+}
 
 
 
+.slider-wrapper .swiper-slide-button {
+  color:#d9924e;
+  margin-top: -50px;
+}
 
+.slider-wrapper .swiper-slide-button:hover {
+  color:#d9924e;
+}
+
+.inst{
+  background-color: #082931;
+  color:#fadca8;
+}
+#desc{
+  border-radius: 5px 5px 5px 5px;
+}
 

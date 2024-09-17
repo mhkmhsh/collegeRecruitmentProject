@@ -19,26 +19,7 @@ function displaySavedInput() {
 window.onload = function() {
   displaySavedInput();
 };
-  // js remembers the users name through reloads ( found the user input on google, multiple sources and the message from Rock Paper Scissors Project)
-  // add smth to make the top disappear when submit is clicked and so the body appears 
-  function handleClick() {
-    const greetingCard = document.getElementById('greeting');
-    const content = document.getElementById('content');
 
-    // Animate greetingCard to slide up and fade out
-    greetingCard.animate([
-      { opacity: 1, transform: 'translateY(0)' },
-      { opacity: 0, transform: 'translateY(-100%)' }
-    ], {
-      duration: 1000,
-      iterations: 1
-    }).onfinish = () => {
-      // Hide the greetingCard and show the content
-      greetingCard.style.display = 'none';
-      content.style.display = 'block';
-      content.style.opacity = 1;
-    };
-  }
 
   // If you want to display content from the start if it's already in localStorage
   window.onload = function() {
@@ -88,4 +69,20 @@ window.onload = function() {
     },
     }
 
+  });
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('popup');
+    const closeButton = document.getElementById('close-popup');
+  
+    // Show the popup after a delay (e.g., 2 seconds)
+    setTimeout(function() {
+      popup.classList.remove('hidden');
+    }, 500);
+  
+    // Close the popup when the close button is clicked
+    closeButton.addEventListener('click', function() {
+      popup.classList.add('hidden');
+    });
   });

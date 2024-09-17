@@ -22,104 +22,104 @@
   <div id="body">
     <div class="container">
 
-      <div class="greeting">
-        <div class="row p-3 m-5">
-          <div id="box" class="p-3 text-center">
-            <h1>Princeton University</h1>
+      <div id="popup" class="hidden">
+        <div class="popup-content">
+          <h1>Princeton University</h1>
+          <div class="col-12 p-3">
+            <h3 class="text-center"> Please enter your Name!</h3>
+            <input id="userInput">
+            <button onclick="myFunction()" type="button" class="btn btn-dark"> SUBMIT!</button>
             <br>
-            <hr>
-            <div class="col-12 p-3">
-              <h3 class="text-center"> Please enter your Name!</h3>
-              <input id="userInput">
-              <button onclick="myFunction()" type="button" class="btn btn-dark"> SUBMIT!</button>
-              <br>
-            </div>
-            <div class="row m-2">
-
-            </div>
-            <!--Button to move to the main page-->
-            <button class="button-89" role="button" onclick="handleClick()" id="slide">Continue</button>
           </div>
-        </div>
-      </div>
-      <div class="content">
-        <div class="row m-3 p-3">
-          
-          <hr>
-          <h1 class="col-12 text-center"> Princeton University</h1>
-          <!-- TEST-->
-
-          <hr>
-          <h3 class="text-center" id="message"></h3>
-          <h3 class="col-12 text-center"> </h3>
-        </div>
-        <div class="row m-3" id="intro">
-          <img  src="images/stu.jpg">
-          <h5 class="col-12 p-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex nihil aperiam
-            totam
-            officiis harum. Atque culpa eligendi error cumque harum similique sequi perspiciatis beatae quam deserunt
-            numquam molestiae repellendus nesciunt, odio nemo reprehenderit. Quam iusto et, saepe voluptatibus
-            dignissimos
-            a sit aliquid soluta atque nesciunt quasi asperiores voluptates. Et?</h5>
-        </div>
-       
-        <div class="row ">
-          <div class="inst text-center" id="desc"> <hr> <h4>Scroll through the Princeton Website for more information below!</h4> <hr></div>
-        </div>
-        <div class="row m-3" id="rotcar">
-          <!-- ROTATING CAROUSEL-->
-          <!--https://www.youtube.com/watch?v=XxG7vqFecR8&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2&index=2-->
-          <div class="container swiper">
-            <div class="slider-wrapper">
-              <div class="card-list swiper-wrapper">
-                <div class="card-item swiper-slide">
-                  <img src="images/round1.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession"> Majors</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-                <div class="card-item swiper-slide">
-                  <img src="images/round2.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession">Societies</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-                <div class="card-item swiper-slide">
-                  <img src="images/round3.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession">Statistics</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-                <div class="card-item swiper-slide">
-                  <img src="images/round4.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession"> Dorms</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-                <div class="card-item swiper-slide">
-                  <img src="images/round5.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession"> Food</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-                <div class="card-item swiper-slide">
-                  <img src="images/round6.jpg" alt="User Image" class="user-image">
-                  <h2 class="user-profession">Location</h2>
-
-                  <button class="button-89 message-button" role="button">Explore</button>
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-              <div class=" swiper-slide-button swiper-button-prev"></div>
-              <div class=" swiper-slide-button swiper-button-next"></div>
-            </div>
-          </div>
+          <button class="button-89" role="button" onclick="handleClick()" id="close-popup">Continue</button>
 
         </div>
       </div>
 
     </div>
+
+    <div class="content">
+      <div class="row m-3 p-3">
+
+        <hr>
+        <h1 class="col-12 text-center"> Princeton University</h1>
+        <!-- TEST-->
+
+        <hr>
+        <h3 class="text-center" id="message"></h3>
+        <h3 class="col-12 text-center"> </h3>
+      </div>
+      <div class="row m-3" id="intro">
+        <img src="images/stu.jpg">
+        <h5 class="col-12 p-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex nihil aperiam
+          totam
+          officiis harum. Atque culpa eligendi error cumque harum similique sequi perspiciatis beatae quam deserunt
+          numquam molestiae repellendus nesciunt, odio nemo reprehenderit. Quam iusto et, saepe voluptatibus
+          dignissimos
+          a sit aliquid soluta atque nesciunt quasi asperiores voluptates. Et?</h5>
+      </div>
+
+      <div class="row ">
+        <div class="inst text-center" id="desc">
+          <hr>
+          <h4>Scroll through the Princeton Website for more information below!</h4>
+          <hr>
+        </div>
+      </div>
+      <div class="row m-3" id="rotcar">
+        <!-- ROTATING CAROUSEL-->
+        <!--https://www.youtube.com/watch?v=XxG7vqFecR8&list=PLpwngcHZlPae68z_mLFNfbJFIJVJ_Zcx2&index=2-->
+        <div class="container swiper">
+          <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+              <div class="card-item swiper-slide">
+                <img src="images/round1.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession"> Majors</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="images/round2.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession">Societies</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="images/round3.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession">Statistics</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="images/round4.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession"> Dorms</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="images/round5.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession"> Food</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+              <div class="card-item swiper-slide">
+                <img src="images/round6.jpg" alt="User Image" class="user-image">
+                <h2 class="user-profession">Location</h2>
+
+                <button class="button-89 message-button" role="button">Explore</button>
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class=" swiper-slide-button swiper-button-prev"></div>
+            <div class=" swiper-slide-button swiper-button-next"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
   </div>
 
   <!--LINKING SWIPER JS-->

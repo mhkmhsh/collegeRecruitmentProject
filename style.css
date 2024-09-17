@@ -12,8 +12,8 @@ h1{
     font-size:500;
 }
 
-#box{
-    background-color:#082931;
+#popup{
+    background:#082931;
     border-radius: 5px 5px 5px 5px;
     color:#fadca8;
 
@@ -148,3 +148,18 @@ button{
   border-radius: 5px 5px 5px 5px;
 }
 
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure it's on top */
+}
+
+#popup.hidden {
+  display: none;
+}

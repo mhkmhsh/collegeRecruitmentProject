@@ -163,3 +163,11 @@ button{
 #popup.hidden {
   display: none;
 }
+
+
+.hero{
+ margin:auto;
+ height:25%;
+ width:25%;
+ justify-content: center;
+}

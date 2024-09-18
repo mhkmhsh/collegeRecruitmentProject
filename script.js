@@ -73,15 +73,14 @@ window.onload = function() {
 
 
   document.addEventListener('DOMContentLoaded', function() {
+    const back = document.getElementById('blur');
     const popup = document.getElementById('popup');
     const closeButton = document.getElementById('close-popup');
   
-    // Show the popup after a delay (e.g., 2 seconds)
     setTimeout(function() {
       popup.classList.remove('hidden');
     }, 500);
   
-    // Close the popup when the close button is clicked
     closeButton.addEventListener('click', function() {
       popup.classList.add('hidden');
     });

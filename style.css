@@ -1,22 +1,33 @@
 html{
     background-color: #fadca8;
+    justify-content: center;
 }
 
 #body{ 
     background-color: #fadca8;
     font-family: "Abril Fatface", serif;
     color:#082931;
+    overflow-x: hidden;
 }
 
 h1{
     font-size:500;
 }
 
-#popup{
-    background:#082931;
-    border-radius: 5px 5px 5px 5px;
+.header{
+  background-color: #082931;
+  color:#fadca8;
+}
+.popup-content {
+    background-color:#082931;
+    border-radius: 5px 5px 5px 5px ;
     color:#fadca8;
+  
 
+}
+
+#intro{
+  text-align: center;
 }
 
 #logo{
@@ -153,21 +164,19 @@ button{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: #082931;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  z-index: 1000; /* Ensure it's on top */
+  box-shadow: 0px 0px 20px #d9924e;
+  z-index: 1000; 
 }
 
 #popup.hidden {
   display: none;
+
 }
 
-
-.hero{
- margin:auto;
- height:25%;
- width:25%;
- justify-content: center;
+.heroimg{
+  box-shadow: 0px 0px 20px #d9924e;
+  border-radius: 5px 5px 5px 5px;
 }

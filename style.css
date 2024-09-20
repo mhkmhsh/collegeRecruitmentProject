@@ -30,12 +30,7 @@ h1{
   text-align: center;
 }
 
-#logo{
 
- height:50%;
- width:50%;
-justify-content: center;
-}
 
 #nav{
   background-color:#082931 ;
@@ -128,11 +123,9 @@ button{
 .card-list .card-item .message-button {
   color:#fadca8;
   font-weight: 500;
-  cursor:pointer;
+
 }
-.message-button:active {
-  color: #44504b;
-}
+
 
 .slider-wrapper .swiper-pagination-bullet {
   background:#d9924e;
@@ -179,4 +172,43 @@ button{
 .heroimg{
   box-shadow: 0px 0px 20px #d9924e;
   border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+/* CSS */
+.button-74 {
+  background-color: #44504b;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #d9924e;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }

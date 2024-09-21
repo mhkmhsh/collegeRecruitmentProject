@@ -90,7 +90,7 @@ h1{
     border: 2px solid #422800;
     border-radius: 30px;
     box-shadow: #422800 4px 4px 0 0;
-    color: #422800;
+    color:#fadca8;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
@@ -123,13 +123,21 @@ h1{
 
 
   #list{
-background-color: #fadca8;
+background-color: #422800d4;
 border-radius: 5px 5px 5px 5px;
-box-shadow: 0px 0px 20px #d9924e;
+
 color:#082931;
   }
   #cont{
     background-color: #082931;
     color:#fadca8;
-    box-shadow: 0px 0px 20px #d9924e;
+    height: fit-content;
+   
+  }
+
+  #article-photo{
+    height:50%;
+    width:50%;
+    border-radius: 5px 5px 5px 5px;
+justify-content: center;
   }

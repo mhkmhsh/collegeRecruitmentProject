@@ -217,3 +217,13 @@ button{
     padding: 0 25px;
   }
 }
+
+footer{
+  background-color: #082931;
+  color:#fadca8;
+  font-family: "Abril Fatface", serif;
+  text-align: center;
+}
+#foot{
+  color:#d9924e;
+}
